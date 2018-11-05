@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Servlet example" type="JettyRunner-By-GuiKeller" factoryName="Jetty Runner">
+    <option name="JettyRunnerV112-WebAppPath" value="/app" />
+    <option name="JettyRunnerV112-WebAppFolder" value="$PROJECT_DIR$/target/ServletExampleApp" />
+    <option name="JettyRunnerV112-ClassesDirectory" value="$PROJECT_DIR$/target/classes" />
+    <option name="JettyRunnerV112-RunOnPort" value="8080" />
+    <option name="JettyRunnerV112-JettyXML" value="" />
+    <option name="JettyRunnerV112-VmArgs" value="-Djetty.home=/opt/jetty/9.4.12.v20180830" />
+    <option name="JettyRunnerV112-PassParentEnvVars" value="true" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
