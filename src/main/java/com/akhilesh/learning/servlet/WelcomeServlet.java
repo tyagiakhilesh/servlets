@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/welcome")
+@WebServlet(name = "WelcomeServlet", urlPatterns = {"/welcome"}, displayName = "Welcome!!", asyncSupported = true)
 public class WelcomeServlet extends HttpServlet {
 
     @Override
